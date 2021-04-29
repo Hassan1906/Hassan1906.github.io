@@ -75,13 +75,13 @@ header{
     margin: 0 auto;
     max-width: 996px;
   }
-  .splash {
+  .welcome-section {
     background:url("https://unsplash.com/photos/nd_6z4JFK4g/download?force=true") no-repeat fixed center bottom;
       background-size: cover;
       color: #fff;
   }
   
-  .splash .container {
+  .welcome-section .container {
     padding-top: 15vh; /* No JS fallback*/
     padding-bottom: 10vh; /* No JS fallback*/
   }
@@ -96,13 +96,13 @@ header{
     opacity: 0.85;
   }
   
-  .splash h1 {
+  .welcome-section h1 {
     font-size: 40px;
     margin-bottom: .15em;
     text-align: center;
   }
   
-  .splash .lead, .splash .continue {
+  .welcome-section .lead, .splash .continue {
     display: inline-block;
     text-align: center;
   }
@@ -111,7 +111,7 @@ header{
     margin:0;
     color:#fff;
   }
-  .splash .lead {
+  .welcome-section .lead {
     font-size: 30px;
     margin-bottom: 1em;
     font-family: Rockwell;
@@ -164,7 +164,7 @@ header{
         animation: blink 1s infinite;
   }
   
-  .splash .continue {
+  .welcome-section .continue {
     font-size: 3em;
     display:block;
   }
