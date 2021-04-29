@@ -1,60 +1,75 @@
 * {
-    box-sizing: border-box;
-  }
-  #menu
-  {
-    background-color: #ffffff79;
-  }
-  
-  .starter-template {
-    padding: 40px 15px;
-    text-align: center;
-  }
-  ul.navbar-nav { 
-    float:right;
-    text-align:center;
-  }
-  ul.navbar-nav li 
-  {
-    padding: 0 10px;
-  }
-  @media only screen and (max-width:767px)
-  { ul.navbar-nav { float:none; } }
-  .container-fluid {
-    padding: 0 1em;
-  }
-  .navbar-nav li a
-  {
-    color:black!important;
-    font-size:1.2em;
-    font-family: Century gothic,sans-serif;
-    font-weight:600;
-    transition: 0.4s ease;
-  }
-  .navbar-nav li a:hover
-  {
-    color:#fff!important;
-    background-color:black!important;
-  }
-  .navbar-brand {
-    padding:10px 15px!important;
-  }
-  a.navbar-brand .fa-globe
-  {
-    font-size: 30px;
-    color: black;
-    transition:0.5s ease;
-  }
-  a.navbar-brand .fa-globe:hover
-  {
-    color: #3935e6;
-  }
-  .navbar-inverse .navbar-toggle .icon-bar {
-      background-color: black!important;
-  }
-  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-      background-color: #fff!important;
-  }
+  box-sizing: border-box;
+}
+#menu
+{
+  background-color: #ffffff79;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+*{ box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+ background:lightblue;
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+ font-family: poppins;
+ font-weight: 600;
+ font-size: 16px;
+}
+
+a{
+ text-decoration: none;
+
+}
+
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 30px 70px;
+}
+.logo{
+ cursor: pointer;
+}
+
+.nav-area{
+ list-style: none;
+}
+
+.nav-area li{
+ display: inline-block;
+ padding: 0 15px;
+ text-transform: uppercase;
+}
+
+.nav-area li a{
+ transition: .3s;
+ color: #000;
+}
+
+.nav-area li a:hover{
+ color: #d22938;
+}
+
+.btn-area{
+ cursor: pointer;
+ color: #000;
+ font-size: 16px;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ padding: 10px 30px;
+ border-radius: 5px;
+ background: #d22938;
+}
   
   .container {
     margin: 0 auto;
