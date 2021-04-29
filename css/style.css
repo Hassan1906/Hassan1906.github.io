@@ -164,7 +164,7 @@ header{
         animation: blink 1s infinite;
   }
   
-  .welcome-section .continue {
+  .splash .continue {
     font-size: 3em;
     display:block;
   }
