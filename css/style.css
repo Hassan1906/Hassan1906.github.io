@@ -183,9 +183,10 @@ header{
       font-size: 3em;
   }
   section.success {
-      color: #fff;
-      background: rgb(13, 79, 136);
+    color: #fff;
+    background: rgb(13, 79, 136);
     padding: 2%;
+    height: 100vh;
   }
   
   section.success a
